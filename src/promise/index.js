@@ -1,3 +1,5 @@
+//Prueba
+
 const somethingWillHappen = () => {
     return new Promise((resolve, reject) => {
         if (true) {
@@ -11,3 +13,4 @@ const somethingWillHappen = () => {
 somethingWillHappen()
     .then(response => console.log(response))
     .catch(err => console.error(err));
+
